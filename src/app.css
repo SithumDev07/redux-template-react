@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  background-color: #191919;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  padding: 1rem 2rem;
+  border-radius: 2px;
+  background-color: white;
+  transition: all 200ms ease;
+  appearance: none;
+  border: 0;
+  font-size: 3vw;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+}
+
+.para {
+  font-size: 10vw;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 2rem;
+  color: white;
+}
